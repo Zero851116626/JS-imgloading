@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>瀑布流加载图片</title>
+    <style>
+        #wrap{
+            margin:0 auto;
+            width:1500px;
+            height:100vh;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap"></div>
+    <script src="./js/data.js"></script>
+    <script src="./js/loading.js"></script>
+    <script>
+        let loading = new loadImg(5,"#wrap",1500);
+        let imgArr = [];
+        img.forEach((v)=>{
+            imgArr.push(v.src)
+        })
+        imgArr.forEach((v)=>{
+            loading.addImg(v);
+        })
+    </script>
+</body>
+</html>
