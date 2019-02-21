@@ -6,12 +6,12 @@
 - 新建一个类，传入以下参数
 - n：number
   表示列数
-str：dom节点
+- str：dom节点
   内部通过document.querySelector()实现
   选择一个容器来存放这些图片
- width：number
+- width：number
   单位是“px”，写入时不加单位
- interval：number
+- interval：number
   每张图片之间的间隔
   默认是10px
   写入时不带单位
