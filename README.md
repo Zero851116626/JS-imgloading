@@ -3,8 +3,8 @@
 原生javascript编写的瀑布流加载图片
 
 ### 使用方法
-新建一个类，传入以下参数
-n：number
+- 新建一个类，传入以下参数
+- n：number
   表示列数
 str：dom节点
   内部通过document.querySelector()实现
